@@ -1,0 +1,40 @@
+# Node dependencies
+node_modules/
+client/node_modules/
+
+# Build artifacts
+dist/
+client/dist/
+
+# Database files
+*.db
+*.db-wal
+*.db-shm
+server/data/*.db
+
+# Project reports, manuals, and documents (Excluded per user request)
+PROJECT_REPORT.md
+OOSE_LAB_MANUAL_EXPERIMENTS.docx
+OOSE_LAB_MANUAL_EXPERIMENTS.md
+OOSE_LAB_MANUAL_EXPERIMENTS.txt
+walkthrough.md
+implementation_plan.md
+
+# Diagrams and images (Excluded per user request)
+diagrams/
+*.png
+*.svg
+*.jpg
+*.jpeg
+
+# Temporary scripts
+scripts/build_*.py
+scripts/exp_content_*.py
+scripts/generate_*.py
+scripts/get_page_count.ps1
+scripts/check_exp_pages.ps1
+
+# Environment & OS files
+.env
+.DS_Store
+Thumbs.db

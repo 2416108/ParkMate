@@ -1,0 +1,16 @@
+{
+  "name": "parking-management-system",
+  "version": "1.0.0",
+  "description": "Professional OOSE Parking Management System",
+  "scripts": {
+    "seed": "npm --prefix server run seed",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "author": "Academic Project",
+  "license": "ISC"
+}
