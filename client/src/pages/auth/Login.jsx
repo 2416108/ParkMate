@@ -127,7 +127,7 @@ export default function Login() {
                 className="flex items-center justify-center gap-1.5 p-2 rounded-lg border border-[#DDE5DD] bg-[#F7FAF7] hover:bg-[#E8F5E9] hover:border-[#2E7D32] text-xs font-medium text-gray-800 transition-colors"
               >
                 <Shield className="w-3.5 h-3.5 text-[#2E7D32]" />
-                <span>Demo Admin</span>
+                <span>Admin</span>
               </button>
             </div>
           </div>
